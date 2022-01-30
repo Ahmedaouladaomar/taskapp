@@ -1,0 +1,13 @@
+
+.navbar-container{
+    display: flex;
+    padding-left: 75%;
+    background-color: aliceblue;
+    height: 100%;
+
+}
+
+.home-links{
+    margin: 40px 10px 10px 10px;
+
+}
