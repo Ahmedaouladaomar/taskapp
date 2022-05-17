@@ -1,0 +1,63 @@
+
+.tasks-all {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.tasks-table-container {
+    height: 300px;
+    overflow: scroll;
+    box-shadow: 0 0 5px 5px lightgray;
+}
+
+.tasks-table {
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px 10px lightgray;
+    width: 800px;
+    position: relative;
+    table-layout: fixed;
+    
+}
+td{
+    text-align: center;
+}
+
+
+/* button-back hover annimation */
+
+   
+   .button-back{
+    padding: 10px 30px 10px 30px;
+    width: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: all .5s;
+    background-color: #f4511e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+   }
+   
+   .button-back::after{
+    content: '\00bb';
+    position: absolute;
+    padding-left: 8px;
+    transition: all .5s;
+    opacity: 0;
+   }
+   
+   .button-back:hover::after{
+    padding-left: 6px;
+    opacity: 1;
+   
+   }
+   
+   .button-back:hover{
+    padding-left: 6px;
+   }
+   

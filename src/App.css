@@ -1,0 +1,8 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(./images/home-backround.png);
+    
+}
